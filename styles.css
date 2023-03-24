@@ -1,0 +1,35 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@media screen and (min-width: 820px) {
+    .nav-list {
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+}
+
+#navbar header {
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    border-top: 1px solid black;
+    padding: 15px 25px;
+}
